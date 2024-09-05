@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: snowflake
+    database: ENEM_STORAGE
+    schema: ENEM
+    tables:
+      - name: ENEM2020

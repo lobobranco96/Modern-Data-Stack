@@ -1,0 +1,12 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: <conta.us-east-1>
+      user: <usuario>
+      password: <senha>
+      role: ACCOUNTADMIN
+      database: ENEM_STORAGE
+      warehouse: COMPUTE_WH
+      schema: ENEM
